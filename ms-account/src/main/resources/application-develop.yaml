@@ -1,0 +1,13 @@
+databases:
+  security:
+    encrypt: false
+  main:
+    datasource:
+      url: jdbc:postgresql://flora.db.elephantsql.com/rahxczag
+      username: rahxczag
+      password: btK9hNJxhN6AiQhdmcbvuttA-dokStXZ
+      driver-class-name: org.postgresql.Driver
+
+
+swagger:
+  enable-ui: true

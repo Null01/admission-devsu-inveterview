@@ -1,0 +1,12 @@
+databases:
+  security:
+    encrypt: false
+  main:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/devsu-bank
+      username: postgres
+      password: admin
+      driver-class-name: org.postgresql.Driver
+
+swagger:
+  enable-ui: true
